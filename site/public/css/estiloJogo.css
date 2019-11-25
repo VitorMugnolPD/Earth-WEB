@@ -1,0 +1,52 @@
+body{
+    background-size: 2500px; 
+    /* background-size: cover; */
+    /* height: 1080px; */
+    background-position-x: -600px;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+form{
+    background-color: rgba(107, 110, 138, 0.795);
+    border-radius: 20px;
+}
+
+input{
+    border-radius: 10px;    
+}
+
+#imgsCoracoes{
+    position: fixed;
+    top: 10px;
+    right: 2px;
+}
+
+#pontuacao{
+    position: fixed;
+    top: 60px;
+    right: 10px;
+}
+
+#enviarLogin{
+    background-color: rgba(0, 0, 255, 0.493);
+}
+
+#enviarLogin:hover{
+    font-size: 125%;
+    width: 135%;
+    transition: 0.25s;
+}
+
+a{
+    background-color: rgba(0, 0, 255, 0.493);
+    color: white;
+    transition: 0.25s;
+}
+
+a:hover{
+    font-size: 40px;
+    color: rgb(194, 194, 194);
+    transition: 0.25s;
+}

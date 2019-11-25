@@ -1,0 +1,21 @@
+body{
+    /* background-size: 2500px; */
+    background-size: cover;
+    /* height: 1080px;  */
+    background-position-x: -600px;
+    background-repeat: no-repeat;
+}
+
+h4{
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    color: white;
+}
+
+#btnJogar{
+    font-size: 50px;
+    font-family: "Century Gothic";
+}

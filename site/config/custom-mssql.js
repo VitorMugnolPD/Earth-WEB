@@ -1,0 +1,1 @@
+var mssql = require('mssql'); const config = { user: 'BD19199', password: 'Rataodadeepweb', server: 'regulus.cotuca.unicamp.br', database: 'BD19199' }; mssql.connect(config).then(conexao => global.conexao = conexao).catch(erro => console.log(erro)); module.exports = mssql;

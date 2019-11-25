@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estiloJogo.css">
+    <link href="/fontawesome-free-5.11.2-web/css/fontawesome.css" rel="stylesheet">
+    <link href="/fontawesome-free-5.11.2-web/css/brands.css" rel="stylesheet">
+    <link href="/fontawesome-free-5.11.2-web/css/solid.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+
+<body style="background-image: url('/img/fundo.jpg');">
+    <div class="container">
+        <center>
+
+            <br>
+            <label id="txtBandeira" style="font-size: 20px;">A que país pertence esta bandeira?</label>
+            <label id="txtCapital" style="font-size: 20px;">A que país pertence esta capital?</label><br><br>
+
+            <img src="" id="imagem" style="border: 5px ridge black; height: 300px;">
+            <b><label id="capital" style="font-size: 50px;"></label></b>
+
+            <div id="botoes">
+                <br><br>
+                <button type="button" class="btn btn-primary" id="botao1"></button>
+                <button type="button" class="btn btn-primary" id="botao2"></button><br><br>
+                <button type="button" class="btn btn-primary" id="botao3"></button>
+                <button type="button" class="btn btn-primary" id="botao4"></button>
+            </div>
+
+            <br><br>
+            <label id="pontuacao" style="font-size: 20px;">Pontuação: 0</label>
+            <br>
+
+            <br>
+            <div id="imgsCoracoes">
+                <img src="/img/coracaoCheio.png" id="coracao1" style="width: 40px;">
+                <img src="/img/coracaoCheio.png" id="coracao2" style="width: 40px;">
+                <img src="/img/coracaoCheio.png" id="coracao3" style="width: 40px;">
+            </div>
+            <br><br>
+
+            <form id="login">
+                <br><br>
+                <label id="pont"></label>
+                <label>Insira o seu usuário:</label><br><br>
+                <label>Nome: </label>
+                <input type="text" name="nomeL" id="nomeL"><br><br>
+                <label>Senha: </label>
+                <input type="password" name="senhaL" id="senhaL"><br><br>
+                <div id="enviarLogin" style="width: 200px; border: solid black 3px;">Alterar pontuação</div><br>
+                <a href="https://github.com/VitorMugnolPD/Earth-Java" target="_blank" style="font-size: 30px;">
+                    Não tenho conta <i class="fab fa-github"></i>
+                </a>
+                <br><br>
+            </form>
+
+        </center>
+    </div>
+    <script src="/js/scrptJogo.js"></script>
+</body>
+
+</html>
